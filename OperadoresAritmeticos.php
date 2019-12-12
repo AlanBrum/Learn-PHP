@@ -24,10 +24,18 @@
        $soma = $n1 + $n2;
        $subtracao = $n1 - $n2;
 
-       echo nl2br("A soma entre $n1 e $n2 é igual a $soma \n");
+
+
+       echo "A divisão entre $n1 e $n2 é igual a ". ($n1/$n2);
+
+       echo "<br/> A soma entre $n1 e $n2 é igual a $soma";
        
-       echo "A subtração entre $n1 e $n2 é igual a $subtracao";
+       echo nl2br("A subtração entre $n1 e $n2 é igual a $subtracao \n");
        
+       echo "A soma de $n1 + $n2 vale ".($n1+$n2); //Somando duas variáveis se criar uma outra
+
+
+
        ?>
         </div>
     </body>
