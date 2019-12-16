@@ -5,3 +5,6 @@
 
  
  php -S localhost:8000 OperadoresAritmeticos.php
+
+  php -S localhost:8000 FuncoesAritmeticas.php
+

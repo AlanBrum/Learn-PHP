@@ -61,9 +61,11 @@
             
             echo "<br/> A média correta entre $n1 e $n2 é $media_certa";
 
+            echo "<br/>Adicione esses dados no final da URL,<strong>/?a=3&b=4</strong>, e as variáveis a e b serão prenchidas abaixo";
+
             echo "<br/> Esse valor veio da URL da página, a = $valor_a_da_url e b = $valor_b_da_url";
 
-
+            
 
 
             ?>
