@@ -22,7 +22,9 @@
 
             # Obtenção de variáveis
             $preco = $_GET["p"];
-            echo "O preço do produto é R$ $preco";
+
+            #Série de echo 
+            echo "O preço do produto é R$". number_format($preco,2,",",".");
 
 
             ?>
