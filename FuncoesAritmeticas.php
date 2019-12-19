@@ -47,6 +47,8 @@
 
             echo "<br/>O parte inteira de $valor2 é: " . intval($valor2);  // pega parte inteira do número
 
+            echo "<br/>O valor de $valor2 em moeda é: R$" . number_format($valor2, 2,",",".");  // pega parte inteira do número
+
             ?>
 
 
